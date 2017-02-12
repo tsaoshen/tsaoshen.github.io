@@ -5,21 +5,129 @@
 		<meta http-equiv="X-UA-Compatible" content="chrome=1">
 		<meta name="description" content="Tsaoshen.GitHub.io : ">
 		<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-		<title>Tsaoshen.GitHub.io</title>
+		
+		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<title>Tsaoshen.GitHub.io (Steven Tsao's Project Page)</title>
 	</head>
 	<body>
 		<!-- HEADER -->
 		<div id="header_wrap" class="outer">
 			<header class="inner">
 				<a id="forkme_banner" href="https://github.com/tsaoshen">View on GitHub</a>
-				<h1 id="project_title">Welcome to tsaoshen’s homepage!</h1>
-				<h2 id="project_tagline">Feel free to bookmark this to keep an eye on my project updates.</h2>
+				<h1 id="project_title">Steven Tsao's Project Page</h1>
 			</header>
 		</div>
 		<!-- MAIN CONTENT -->
 		<div id="main_content_wrap" class="outer">
 			<section id="main_content" class="inner">
-				<h3>
+			
+				<p>Here are some of the software projects which I accomplished during the BCIT CST diploma program:</p>
+	
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" href="#collapse1">Personal Profile Management System</a>
+						</h4>
+					</div>
+					<div id="collapse1" class="panel-collapse collapse">
+						<div class="panel-body">
+							A simple asp.net application which allows the user to 
+							add/update/delete personal profiles with graphical user 
+							interface. The application is connected to Microsoft 
+							Access database via ODBC which manages all the relevant 
+							data.
+						</div>
+					</div>
+				</div>
+	
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" href="#collapse2">Forked Server Implementation</a>
+						</h4>
+					</div>
+					<div id="collapse2" class="panel-collapse collapse">
+						<div class="panel-body">
+							Multi-client TCP server developed in C++ which 
+							allows the user to enter a list of numbers and then 
+							returns the result after performing preorder / inorder
+							/ postorder traversal as specified in the configuration
+							file. The server uses interprocess communication to 
+							handle multiple clients which the parent process 
+							receives the input data from the client and the child 
+							process performs the algorithm to be returned to the 
+							client.
+						</div>
+					</div>
+				</div>
+					
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" href="#collapse3">Time Allocation Dashboard</a>
+						</h4>
+					</div>
+					<div id="collapse3" class="panel-collapse collapse">
+						<div class="panel-body">
+							This is the project completed during the Computer Projects 
+							Practicum course with a team for the company Gravit-e 
+							Technologies. The team implemented the main page of the 
+							dashboard which summarizes the basic information of active 
+							clients and projects for the company. This project uses 
+							Laravel 5.2 as the primary development environment. My 
+							roles of the project include implementing SQL queries for 
+							the required tables, integrating user interface developed 
+							by another team member, and performing unit tests on the 
+							data to ensure the numerical values in the tables are 
+							consistent with the values in the other pages of the 
+							dashboard.
+						</div>
+					</div>
+				</div>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" href="#collapse4">Recipe Book Android Application</a>
+						</h4>
+					</div>
+					<div id="collapse4" class="panel-collapse collapse">
+						<div class="panel-body">
+							Developing an android app with a team of three for the 
+							mobile development course. This application allows the 
+							user to create or view a recipe for a meal which is 
+							stored in the database. My roles include implementing the 
+							SQLite database and testing the correctness of all the 
+							buttons and functionalities of the app.
+						</div>
+					</div>
+				</div>
+				
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" href="#collapse5">Web-Based Brain Game</a>
+						</h4>
+					</div>
+					<div id="collapse5" class="panel-collapse collapse">
+						<div class="panel-body">
+							I developed a web-based brain game "Escape District 34" 
+							with a team using Agile methodology for the Projects 
+							course during the second semester which allows the user to 
+							improve their pattern recognition skills. My roles of the 
+							project involve implementing the visual details of the 
+							gameplay screen in JavaScript, adding audio effects, and 
+							testing whether each button links to the correct gameplay 
+							screen. 
+						</div>
+					</div>
+				</div>
+
+				<!--<h3>
 					<a id="faculty-member-website" class="anchor" href="#faculty-member-website" aria-hidden="true">
 					<span aria-hidden="true" class="octicon octicon-link"></span></a>Faculty Member Website
 				</h3>
@@ -35,7 +143,7 @@
 				<a href="https://github.com/tsaoshen/comp1510-java-apps/blob/master/DrawTriangle.java" target="_blank">
 				DrawTriangle.java</a><br>
 				<a href="https://github.com/tsaoshen/comp1510-java-apps/blob/master/StopWatch.java" target="_blank">
-				StopWatch.java</a>
+				StopWatch.java</a>-->
 			</section>
 		</div>
 		<!-- FOOTER  -->
